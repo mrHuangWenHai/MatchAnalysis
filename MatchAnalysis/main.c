@@ -443,7 +443,7 @@ void analysisSymbolTable()
         printf("type = %#x\n",list[i].n_type);
         printf("section index(type 为N_SECT有效) = %u\n",list[i].n_sect);
         printf("description = %u\n",list[i].n_desc);
-        printf("value = %llu\n\n",list[i].n_value);
+        printf("转载地址 = %llu\n\n",list[i].n_value);
     }
     printf("\n");
 }
